@@ -1,10 +1,11 @@
-/* 
+
 
   .firsth2{
     color: #1F2666;
   }
   .img_dots1{
     width: 20%;
+    /* height: 14%; */
     margin-left: 85%;
     margin-bottom: 70%;
    
@@ -12,6 +13,7 @@
   }
   .form1{
     background-color: white;
+    /* height: 100%; */
     padding: 10%;
     position: relative;
     top: 5%;
@@ -26,14 +28,21 @@
   .find_div{
     width: 50%;
     padding-top: 6%;
+    /* background-color: #0266F4; */
+    
   }
   .find_div2{
     width: 50%;
+    /* padding-top: 6%; */
+    /* background-color: #0266F4; */
+    
   }
   .sec_1{
     height: 420px;
+    /* background-color: #3c4489; */
     display: flex;
     margin-block-end: 10%;
+    /* padding: 10%; */
   }
   .input1{
     font-size: 55%;
@@ -138,6 +147,7 @@
     display: block;
   }
   .sec_2{
+    /* margin-block-end: 5%; */
     height: 900px;
   }
   .sec_4a{
@@ -159,4 +169,4 @@
   }
 }
 @media (max-width: 425px) {}
-@media (max-width: 320px) {} */
+@media (max-width: 320px) {}
