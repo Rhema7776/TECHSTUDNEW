@@ -108,7 +108,7 @@ function App(){
       </div>
       <div className='sec_4'>
         <div className="sec_4a container">
-          <div className="find_div">
+          <div className="find_div2">
             <h3 className="firsth2">Let's help you hire</h3>
             <p className="p_1">
               Let our team of recruitment experts find the right talents fit for you. Based on your requirements, we will shorlist talents with matching skills and help you schedule interviews with them. We will assist you every step of the way.

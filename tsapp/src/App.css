@@ -27,7 +27,13 @@
   
   .find_div{
     width: 50%;
-    /* padding: 6%; */
+    padding-top: 6%;
+    /* background-color: #0266F4; */
+    
+  }
+  .find_div2{
+    width: 50%;
+    /* padding-top: 6%; */
     /* background-color: #0266F4; */
     
   }
@@ -60,16 +66,17 @@
   }
   .sec_2{
     background-color: #F5F6FA;
-    height: 500px;
-    padding: 5%;
+    height: 600px;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .sec_2a{
-    width: 30%;
+    width: 32%;
     background-color: #FFFFFF;
+    padding: 3%;
   }
   .sec_2div{
     display: flex;
-    /* background-color: orangered; */
     justify-content: space-between;
   }
   .HTW{
@@ -89,14 +96,13 @@
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 10%;
     grid-row-gap: 3%;
-    /* background-color: #0266F4; */
+    
   }
   .sec_3{
-    /* padding: 5%; */
     padding-bottom: 10%;
+    padding-top: 10%;
   }
   .sec_4{
-    /* height: 400px; */
     background-color: #DCE9FA;
   }
   .sec_4a{
@@ -104,12 +110,11 @@
     background-color: #DCE9FA;
     display: flex;
     justify-content: space-between;
-    /* margin-block-end: 10%; */
     padding-top: 5%;
   }
   .form2{
     background-color: white;
-    height: 370px;
+    height: 385px;
     padding: 5%;
     width: 35%;
   }
@@ -117,6 +122,44 @@
 .Hire{
   margin-block-end: 10%;
 }
-/* .para{
-  width: 75%;
-} */
+
+@media (max-width: 2560px) {}
+@media (max-width: 1200px) {}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {
+  .sec_1{
+    display: block;  
+  }
+  .d_grid{
+    display: block;
+  }
+  .sec_2a{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 3%;
+  }
+  .sec_2div{
+    display: block;
+  }
+  .sec_2{
+    margin-block-end: 50%;
+  }
+  .sec_4a{
+    display: block;
+  }
+  .form2{
+    width: 100%;
+  }
+  .find_div2{
+    width: 100%;
+  }
+  .find_div{
+    width: 100%;
+  }
+  .formdiv{
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+
+}
